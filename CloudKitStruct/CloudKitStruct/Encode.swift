@@ -11,5 +11,5 @@ import CloudKit
 /// Specifies how a type can be encoded to be stored with CloudKit.
 public protocol CloudKitEncodable {
     
-    func save(record: CKDatabase)
+    func toRecord() -> CKRecord
 }
