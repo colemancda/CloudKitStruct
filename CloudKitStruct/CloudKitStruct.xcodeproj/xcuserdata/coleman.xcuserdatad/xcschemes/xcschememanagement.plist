@@ -4,14 +4,24 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>CloudKitStruct.xcscheme</key>
+		<key>CloudKitStruct OS X.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>CloudKitStruct iOS.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>6EF660C81BF705F900BACE52</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>6EFC75F91BF5B2FA002A4822</key>
 		<dict>
 			<key>primary</key>

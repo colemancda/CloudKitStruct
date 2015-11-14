@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "6EFC75F91BF5B2FA002A4822"
-               BuildableName = "CloudKitStruct.framework"
-               BlueprintName = "CloudKitStruct"
+               BlueprintIdentifier = "6EF660C81BF705F900BACE52"
+               BuildableName = "CloudKitStruct iOS.framework"
+               BlueprintName = "CloudKitStruct iOS"
                ReferencedContainer = "container:CloudKitStruct.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -28,26 +28,7 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "6EFC76031BF5B2FB002A4822"
-               BuildableName = "CloudKitStructTests.xctest"
-               BlueprintName = "CloudKitStructTests"
-               ReferencedContainer = "container:CloudKitStruct.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "6EFC75F91BF5B2FA002A4822"
-            BuildableName = "CloudKitStruct.framework"
-            BlueprintName = "CloudKitStruct"
-            ReferencedContainer = "container:CloudKitStruct.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -64,9 +45,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "6EFC75F91BF5B2FA002A4822"
-            BuildableName = "CloudKitStruct.framework"
-            BlueprintName = "CloudKitStruct"
+            BlueprintIdentifier = "6EF660C81BF705F900BACE52"
+            BuildableName = "CloudKitStruct iOS.framework"
+            BlueprintName = "CloudKitStruct iOS"
             ReferencedContainer = "container:CloudKitStruct.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -82,9 +63,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "6EFC75F91BF5B2FA002A4822"
-            BuildableName = "CloudKitStruct.framework"
-            BlueprintName = "CloudKitStruct"
+            BlueprintIdentifier = "6EF660C81BF705F900BACE52"
+            BuildableName = "CloudKitStruct iOS.framework"
+            BlueprintName = "CloudKitStruct iOS"
             ReferencedContainer = "container:CloudKitStruct.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
