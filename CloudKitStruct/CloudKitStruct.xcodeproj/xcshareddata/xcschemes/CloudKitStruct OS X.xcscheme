@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "6EFC75F91BF5B2FA002A4822"
-               BuildableName = "CloudKitStruct OS X.framework"
+               BuildableName = "CloudKitStruct.framework"
                BlueprintName = "CloudKitStruct OS X"
                ReferencedContainer = "container:CloudKitStruct.xcodeproj">
             </BuildableReference>
@@ -43,7 +43,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6EFC75F91BF5B2FA002A4822"
-            BuildableName = "CloudKitStruct OS X.framework"
+            BuildableName = "CloudKitStruct.framework"
             BlueprintName = "CloudKitStruct OS X"
             ReferencedContainer = "container:CloudKitStruct.xcodeproj">
          </BuildableReference>
@@ -65,7 +65,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6EFC75F91BF5B2FA002A4822"
-            BuildableName = "CloudKitStruct OS X.framework"
+            BuildableName = "CloudKitStruct.framework"
             BlueprintName = "CloudKitStruct OS X"
             ReferencedContainer = "container:CloudKitStruct.xcodeproj">
          </BuildableReference>
@@ -83,7 +83,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6EFC75F91BF5B2FA002A4822"
-            BuildableName = "CloudKitStruct OS X.framework"
+            BuildableName = "CloudKitStruct.framework"
             BlueprintName = "CloudKitStruct OS X"
             ReferencedContainer = "container:CloudKitStruct.xcodeproj">
          </BuildableReference>
