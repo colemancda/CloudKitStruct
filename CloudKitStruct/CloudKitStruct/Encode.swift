@@ -12,8 +12,6 @@ import CloudKit
 public protocol CloudKitEncodable {
     
     func toRecord() -> CKRecord
-    
-    func toRecordID() -> CKRecordID
 }
 
 public extension CollectionType where Generator.Element: CloudKitEncodable {
@@ -21,13 +19,5 @@ public extension CollectionType where Generator.Element: CloudKitEncodable {
     func toRecords() -> [CKRecord] {
         
         return self.map { (encodable) -> CKRecord in return encodable.toRecord() }
-    }
-}
-
-public extension CollectionType where Generator.Element: CloudKitEncodable {
-    
-    func toRecordIDs() -> [CKRecordID] {
-        
-        return self.map { (encodable) -> CKRecordID in return encodable.toRecordID() }
     }
 }
