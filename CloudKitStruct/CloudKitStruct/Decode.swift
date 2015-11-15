@@ -11,6 +11,7 @@ import CloudKit
 /// Specifies how a type can be decoded from CloudKit.
 public protocol CloudKitDecodable {
     
+    /// Decodes the type from a ```CloudKit``` record. Assumes the record was fetched with all of its keys.
     init?(record: CKRecord)
 }
 
