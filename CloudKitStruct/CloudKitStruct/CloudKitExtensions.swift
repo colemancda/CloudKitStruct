@@ -10,7 +10,7 @@ import CloudKit
 
 extension CKRecord: CloudKitEncodable {
     
-    public func toCloudKitValues() -> [String : CKRecordValue] {
+    public func toCloudKit() -> (String, [String : CKRecordValue]) {
         
         var values = [String : CKRecordValue]()
         
@@ -19,6 +19,6 @@ extension CKRecord: CloudKitEncodable {
             values[key] = self[key]
         }
         
-        return values
+        return (recordID.recordName, values)
     }
 }

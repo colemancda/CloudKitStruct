@@ -10,8 +10,6 @@
 		6EF660CA1BF705F900BACE52 /* Encode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EFC76161BF5B31F002A4822 /* Encode.swift */; };
 		6EF660CB1BF705F900BACE52 /* Decode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EFC76181BF5B4CC002A4822 /* Decode.swift */; };
 		6EF660CF1BF705F900BACE52 /* CloudKitStruct.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EFC75FD1BF5B2FA002A4822 /* CloudKitStruct.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6EFAF7D91BF90F6E00779AFF /* Identifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EFAF7D81BF90F6E00779AFF /* Identifier.swift */; };
-		6EFAF7DA1BF90F6E00779AFF /* Identifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EFAF7D81BF90F6E00779AFF /* Identifier.swift */; };
 		6EFAF7DE1BF9404800779AFF /* CloudKitExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EFAF7DD1BF9404800779AFF /* CloudKitExtensions.swift */; };
 		6EFAF7DF1BF9404800779AFF /* CloudKitExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EFAF7DD1BF9404800779AFF /* CloudKitExtensions.swift */; };
 		6EFC75FE1BF5B2FA002A4822 /* CloudKitStruct.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EFC75FD1BF5B2FA002A4822 /* CloudKitStruct.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -33,7 +31,6 @@
 
 /* Begin PBXFileReference section */
 		6EF660D41BF705F900BACE52 /* CloudKitStruct.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CloudKitStruct.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6EFAF7D81BF90F6E00779AFF /* Identifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Identifier.swift; sourceTree = "<group>"; };
 		6EFAF7DD1BF9404800779AFF /* CloudKitExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CloudKitExtensions.swift; sourceTree = "<group>"; };
 		6EFC75FA1BF5B2FA002A4822 /* CloudKitStruct.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CloudKitStruct.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EFC75FD1BF5B2FA002A4822 /* CloudKitStruct.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CloudKitStruct.h; sourceTree = "<group>"; };
@@ -96,7 +93,6 @@
 				6EFC75FD1BF5B2FA002A4822 /* CloudKitStruct.h */,
 				6EFC76161BF5B31F002A4822 /* Encode.swift */,
 				6EFC76181BF5B4CC002A4822 /* Decode.swift */,
-				6EFAF7D81BF90F6E00779AFF /* Identifier.swift */,
 				6EFAF7DD1BF9404800779AFF /* CloudKitExtensions.swift */,
 				6EFC75FF1BF5B2FA002A4822 /* Info.plist */,
 			);
@@ -255,7 +251,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				6EF660CA1BF705F900BACE52 /* Encode.swift in Sources */,
-				6EFAF7DA1BF90F6E00779AFF /* Identifier.swift in Sources */,
 				6EFAF7DF1BF9404800779AFF /* CloudKitExtensions.swift in Sources */,
 				6EF660CB1BF705F900BACE52 /* Decode.swift in Sources */,
 			);
@@ -266,7 +261,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				6EFC76171BF5B31F002A4822 /* Encode.swift in Sources */,
-				6EFAF7D91BF90F6E00779AFF /* Identifier.swift in Sources */,
 				6EFAF7DE1BF9404800779AFF /* CloudKitExtensions.swift in Sources */,
 				6EFC76191BF5B4CC002A4822 /* Decode.swift in Sources */,
 			);
