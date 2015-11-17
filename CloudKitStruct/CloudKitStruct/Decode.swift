@@ -11,21 +11,23 @@ import CloudKit
 /// Specifies how a type can be decoded from CloudKit.
 public protocol CloudKitDecodable {
     
+    typealias CloudKitType
+    
     /// Decodes the type from ```CloudKit``` values. 
     ///
     /// Assumes the record was fetched with all of its keys.
-    init?(recordName: String, values: [String: CKRecordValue])
+    init?(CloudKit: CloudKitType)
 }
 
 public extension CloudKitDecodable {
     
-    static func fromCloudKit(valuesByRecordName: [(String, [String: CKRecordValue])]) -> [Self]? {
+    static func fromCloudKit(values: [CloudKitType]) -> [Self]? {
         
         var decodables = [Self]()
         
-        for (recordName, values) in valuesByRecordName {
+        for value in values {
             
-            guard let decodable = self.init(recordName: recordName, values: values) else { return nil }
+            guard let decodable = self.init(CloudKit: value) else { return nil }
             
             decodables.append(decodable)
         }
