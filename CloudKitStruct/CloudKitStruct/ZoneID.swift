@@ -10,16 +10,16 @@ import Foundation
 import CloudKit
 
 /// CloudKit Record Zone ID
-public struct RecordZoneID {
+public struct RecordZoneID: CloudKitConvertible {
     
-    public var name: String
+    public var zoneName: String
     
-    public var owner: String
+    public var ownerName: String
     
-    public init(name: String = CKRecordZoneDefaultName, owner: String = CKOwnerDefaultName) {
+    public init(zoneName: String = CKRecordZoneDefaultName, ownerName: String = CKOwnerDefaultName) {
         
-        self.name = name
-        self.owner = owner
+        self.zoneName = zoneName
+        self.ownerName = ownerName
     }
 }
 
@@ -27,11 +27,14 @@ public struct RecordZoneID {
 
 public extension RecordZoneID {
     
-    init(CloudKit: CKRecordZoneID) {
+    init(CloudKit recordZoneID: CKRecordZoneID) {
         
-        self.name = recordZoneID.zoneName
-        self.owner = recordZoneID.ownerName
+        self.zoneName = recordZoneID.zoneName
+        self.ownerName = recordZoneID.ownerName
     }
     
-    func toCloudKit() -> 
+    func toCloudKit() -> CKRecordZoneID {
+        
+        return CKRecordZoneID(zoneName: zoneName, ownerName: ownerName)
+    }
 }

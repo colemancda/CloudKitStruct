@@ -11,14 +11,14 @@ import CloudKit
 /// Specifies how a type can be encoded to be stored with CloudKit.
 public protocol CloudKitEncodable {
     
-    typealias CloudKitType
-    
-    func toCloudKit() -> CloudKitType
+    /// Encdodes type to CloudKit record.
+    func toCloudKit() -> CKRecord
 }
 
 public extension CollectionType where Generator.Element: CloudKitEncodable {
     
-    func toCloudKit() -> Generator.ElementCloudKitType {
+    /// Encodes collection to CloudKit records. 
+    func toCloudKit() -> [CKRecord] {
         
         return self.map { (encodable) in return encodable.toCloudKit() }
     }
